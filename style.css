@@ -1,6 +1,6 @@
 /* ====== GENERAL ====== */
 body {
-    font-family: cursive, sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 0;
     background-color: #aefd8a;
 }
@@ -102,4 +102,5 @@ nav a:hover {
         padding: 10px;
     }
 }
+
 
