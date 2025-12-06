@@ -71,5 +71,31 @@ nav a:hover {
         text-align: center;
         cursor: pointer;
         font-size: 20px;
+        /* === Stiluri DOAR pentru telefoane === */
+@media (max-width: 600px) {
+
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 12px 0;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container, .content, .section {
+        width: 100%;
+        padding: 10px;
     }
 }
+
+    }
+}
+
